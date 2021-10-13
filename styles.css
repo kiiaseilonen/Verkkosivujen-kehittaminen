@@ -8,14 +8,14 @@ h1 {
 }
 
 p {
+    font-size: 12px;
     color: green;
 }
 
 .border {
-  border-style: dotted; 
-  border-width: 2px;
-   width: 12px;
-   height: 100px;
+    border: 2px dotted white;
+    width: 100px;
+    height: 100px;
 
 }
 
