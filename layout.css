@@ -1,0 +1,16 @@
+body {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    }  
+
+#header {
+    background-color:burlywood;
+}
+#nav {
+    background-color: coral;
+}
+
+#section {
+    background-color: darkgray;
+}
