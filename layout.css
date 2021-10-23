@@ -12,5 +12,21 @@ body {
 }
 
 #section {
+    
     background-color: darkgray;
+    float: left;
+    width: 70%;
+}
+
+aside {
+    background-color: darkseagreen;
+    float: right;
+    width: 30%;
+    
+}
+
+article {
+    background-color: darkturquoise;
+    float: left;
+    width: 70%;
 }
