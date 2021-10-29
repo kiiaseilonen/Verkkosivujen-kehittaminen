@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+.nav {
+    text-align: center;
+}
+
+
+#labbis {
+    height: 200px;
+    width: auto;
+}
