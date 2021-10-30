@@ -1,12 +1,94 @@
-* {
-    box-sizing: border-box;
+
+.logo {
+    float: left;
+    padding: 10px;
 }
+
 .nav {
+    
+}
+
+.hero {
+    padding: 50px;
+}
+
+header {
+    margin-bottom: 10px;
+}
+
+.row {
+    margin-bottom: 10px;
+}
+.border {
+    border: 1px solid black !important;
+}
+
+.center {
     text-align: center;
 }
 
+.welcome {
+    padding: 5px;
+}
 
-#labbis {
-    height: 200px;
-    width: auto;
+.placeholder-img {
+    width: 100px;
+    height: 100px;
+    margin: 0 20px 0 20px;
+    background: #d6d6d8;
+    
+
+}
+
+.center .placeholder-img {
+    margin: 0 auto 20px auto;
+}
+
+.full.width {
+    width: 100%;
+}
+
+.placeholder-img.right {
+    margin-right: 0;
+}
+
+.right {
+    float: right;
+}
+
+.placeholder-img.left {
+    margin-left: 0;
+}
+
+.left {
+    float: left;
+}
+
+.placeholder-img.big {
+    width: 200px;
+    height: 150px;
+}
+
+
+p {
+    margin: 5px;
+}
+
+h3 {
+    margin: 5px;
+    font-size: 24px;
+}
+
+.placeholder-map {
+    height: 400px;
+    width: 100%;
+    background: #d6d6d8;
+}
+
+.col-10 {
+    padding-left: 30px;
+}
+
+.end {
+    margin-top: 10px;
 }
