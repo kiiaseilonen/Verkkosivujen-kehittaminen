@@ -13,7 +13,7 @@
         <tbody>
             <tr>
                 <th>Nimi</th>
-                <th>Ikä</th>
+                <th>Ikä (v)</th>
                 <th>Lempiruoka</th>
                 <th>Lempiväri</th>
                 <th>Asuinpaikka</th>
@@ -41,33 +41,72 @@
         </tbody>
     </table>
     <br>
+    <br>
     <form>
-        <label for="fname">First name:</label>
-        <input type="text" id="fname" name="fname" required>
-        <label for="lname">Last name:</label>
-        <input type="text" id="lname" name="lname" required>
-    <br><br>
-        <label for="email">E-mail:</label>
-        <input type="text" id="email" name="email" required>
-    <br><br>
-        <label for="review">Text area</label>
-        <textarea id="review" name="review" rows="4" width="80"></textarea>
-    <br><br>
-        <input type="checkbox" id="vastaus1" name="vastaus1" value="Kyllä">
-        <label for="vastaus1">Haluan tilata uutiskirjeen</label> <br>
-        <input type="checkbox" id="vastaus2" name="vastaus2" value="Ei">
-        <label for="vastaus2">En halua tilata uutiskirjettä</label>
-    <br><br>
-        <label for="eläin">Valitse eläin:</label>
-        <select name="eläin" id="eläin">
-            <option value="">None</option>
-            <option value="kirahvi">Kirahvi</option>
-            <option value="seepra">Seepra</option>
-            <option value="pelikaani">Pelikaani</option>
-            <option value="miekkavalas">Miekkavalas</option>
-        </select>
-        <br><br>
-        <input type="submit" value="Submit"
+        <div class="wrapper">
+            <div class="row">
+                <div class="col-25">
+                    <label for="fname">First name:</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="fname" name="fname" required>
+                </div>
+            </div>    
+            <div class="row">
+                <div class="col-25">
+                    <label for="lname">Last name:</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="lname" name="lname" required>
+                </div>    
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="email">E-mail:</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="email" name="email" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="review">Text area</label>
+                </div>
+                <div class="col-75">
+                    <textarea id="review" name="review" rows="4" width="80"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25"></div>
+                <div class="col-75">
+                <input type="checkbox" id="vastaus1" name="vastaus1" value="Kyllä">
+                        <label for="vastaus1">Haluan tilata uutiskirjeen</label>      
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25"></div>
+                <div class="col-75">
+                    <input type="checkbox" id="vastaus2" name="vastaus2" value="Ei">
+                        <label for="vastaus2">En halua tilata uutiskirjettä</label> 
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25"></div>
+                <div class="col-75">
+                    <label for="eläin">Valitse eläin:</label>
+                            <select name="eläin" id="eläin">
+                                <option value="">None</option>
+                                <option value="kirahvi">Kirahvi</option>
+                                <option value="seepra">Seepra</option>
+                                <option value="pelikaani">Pelikaani</option>
+                                <option value="miekkavalas">Miekkavalas</option>
+                            </select>
+                </div>
+            </div>
+            
+                    <input type="submit" value="Submit">
+               
+    </div>
     </form>
 </body>
 </html>
