@@ -1,0 +1,93 @@
+
+@media only screen and (max-width: 800px) {
+    body {
+        background-color: black;
+        color:white;
+    }
+
+    #varjo {  
+        padding: 15px;
+        box-shadow: 5px 10px 8px 10px #272c5a;
+        background-color: rgb(255, 123, 0);
+    }
+    
+    h1 {
+        text-shadow: 2px 2px #FF0000;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    h2 {
+        background-image: url("https://images6.alphacoders.com/552/thumb-1920-552086.jpg");
+        background-size: cover;
+        color: white;
+        text-align: center;
+        padding: 200px;
+       margin: 0;
+    }
+
+    .linkit {
+        text-align: center;
+        background-color: rgb(255, 123, 0);
+        padding: 5px;
+    }
+
+    a {
+      
+        color: white;
+        transition: .5s ;
+    }
+    
+    a:hover{
+        
+        color: red;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    
+body {
+    background-color: darkslateblue;
+    width: 80%;
+    margin: auto;
+}
+
+#varjo {  
+    padding: 15px;
+    box-shadow: 5px 10px 8px 10px #272c5a;
+    background-color: rgb(255, 123, 0);
+}
+
+h1 {
+    text-shadow: 2px 2px #FF0000;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+    background-image: url("https://images6.alphacoders.com/552/thumb-1920-552086.jpg");
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 200px;
+    margin: 0;
+    
+}
+
+.linkit {
+    text-align: center;
+    background-color: rgb(255, 123, 0);
+    padding: 5px;
+}
+
+a {
+    color: black;
+    transition: .5s ;
+}
+
+a:hover{
+    
+    color: red;
+}
+
+}
