@@ -1,6 +1,10 @@
 * {
     box-sizing: border-box;
 }
+
+body {
+    background-color: lightskyblue;
+}
 caption {
     font-family: monospace;
     font-size: 20px;
@@ -63,5 +67,8 @@ input[type=text] {
 
 input[type=submit] {
     margin-top: 20px;
-    margin-left: 50%;
+     margin-left: 25%;
+     background-color: greenyellow;
+     border-radius: 8px;
+     padding: 5px;
 }
